@@ -1,0 +1,33 @@
+const locale = {
+	category_title: 'Կատեգորիաներ',
+	Add_New_Category: 'Ավելացնել նոր կատեգորիա',
+	New_Category: 'Նոր կատեգորիա',
+	Category_Detail: 'Կատեգորիայի մանրամասնություն',
+	No_Category: 'Նման կատեգորիա գոյություն չունի!',
+	Go_to_Categories_Page: 'Անցնել կատեգորիաների էջ',
+	Category_Images: 'Կատեգորիայի նկարներ',
+	search: 'որոնում',
+	remove: 'Հեռացնել',
+	save: 'Պահպանել',
+	add: 'Ավելացնել',
+	Basic_Info: 'Հիմնական տեղեկություններ',
+	Contacts: 'Կապ',
+	New_Contact: 'Նոր կապ',
+	Edit_Contact: 'Խմբագրել կոնտակտը',
+	no_contact: 'Կոնտակտներ չկան!',
+	name: 'Անուն',
+	LAst_name: 'Ազգանուն',
+	first_name: 'Անուն',
+	Nickname: 'Մականուն',
+	Phone: 'Հեռախոս',
+	Viber_ID: 'Viber ID',
+	Email: 'Էլ. հասցե',
+	Company: 'Ընկերություն',
+	jobTitle: 'Աշխատանքի անվանումը',
+	Address: 'Հասցե',
+	Notes: 'Նշումներ',
+	All: 'Բոլորը',
+	rows_per_page: 'Տողեր մեկ էջի համար'
+};
+
+export default locale;

@@ -1,0 +1,33 @@
+const locale = {
+	category_title: 'Категории',
+	Add_New_Category: 'Добавить новую категорию',
+	New_Category: 'Новая категория',
+	Category_Detail: 'Подробности Категории',
+	No_Category: 'Нет такой категории!',
+	Go_to_Categories_Page: 'Перейти на страницу категорий',
+	Category_Images: 'Изображения Категории',
+	search: 'поиск',
+	remove: 'Удалять',
+	save: 'Сохранить',
+	add: 'Добавлять',
+	Basic_Info: 'Базовая информация',
+	Contacts: 'Контакты',
+	New_Contact: 'Новый контакт',
+	Edit_Contact: 'Изменить контакт',
+	no_contact: 'Нет контактов!',
+	name: 'Имя',
+	LAst_name: 'Фамилия',
+	first_name: 'Имя',
+	Nickname: 'Ник',
+	Phone: 'Телефон',
+	Viber_ID: 'Viber ID',
+	Email: 'Эл. письмо',
+	Company: 'Компания',
+	jobTitle: 'Должность',
+	Address: 'Адрес',
+	Notes: 'Заметки',
+	All: 'Все',
+	rows_per_page: 'Строк на странице'
+};
+
+export default locale;

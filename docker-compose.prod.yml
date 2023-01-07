@@ -1,0 +1,59 @@
+version: "3.9"
+services:
+  frontend:
+    container_name: frontend
+    build:
+      context: ./packages/frontend
+      dockerfile: Dockerfile.prod
+    restart: always
+    env_file: .env
+    ports:
+      - 80:80
+    volumes:
+      - "./packages/frontend/src:/usr/src/app/src"
+      - /usr/src/app/node_modules
+    networks:
+      - gp-network
+#    command: "npm start"
+  backend:
+    container_name: backend
+    build:
+      context: ./packages/backend
+      dockerfile: Dockerfile.prod
+    restart: always
+    env_file: .env
+    volumes:
+      - ./packages/backend:/svr/app
+      - "./scripts/wait.sh:/wait.sh"
+      - /svr/app/node_modules
+    networks:
+      - gp-network
+    ports:
+      - 4000:4000
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    restart: unless-stopped
+    environment:
+        - ALLOW_EMPTY_PASSWORD=yes
+    volumes:
+        - mongo_data:/data/db
+        - ./seed:/seed
+    ports:
+        - 27017:27017
+    networks:
+        - gp-network 
+  mongo_seed:
+    image: mongo
+    links:
+      - mongo
+    volumes:
+      - ./seed:/seed
+    command:
+      cd /seed && bash ./import.sh
+volumes:
+  mongo_data:
+networks:
+  gp-network:
+    driver: bridge

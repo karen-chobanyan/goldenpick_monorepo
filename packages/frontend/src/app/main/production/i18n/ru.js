@@ -1,0 +1,32 @@
+const locale = {
+	category_title: 'Металлы',
+	Add_New_Category: 'Добавить новую металлы',
+	New_Category: 'Новая металлы',
+	Category_Detail: 'Подробности металлы',
+	No_Category: 'Нет такой Металлы!',
+	Go_to_Categories_Page: 'Перейти на страницу металлы',
+	Metal_Images: 'Изображения Металлы',
+	search: 'поиск',
+	remove: 'Удалять',
+	save: 'Сохранить',
+	Basic_Info: 'Базовая информация',
+	pricing: 'Ценообразование',
+	gems_title: 'Драгоценные камни',
+	Add_New_Gems: 'Добавить новые драгоценные камни',
+	Gem_Detail: 'Подробности драгоценного камня',
+	No_gem: 'Нет драгоценных камней!',
+	Gem_Images: 'Изображение драгоценного камня',
+	USERS: 'Пользователь',
+	Add_New_User: 'Добавить Новый пользователь',
+	New_User: 'Новый пользователь',
+	User_Detail: 'Сведения о пользователе',
+	user_info: 'Информация о пользователе',
+	no_user: 'Нет пользователей',
+	Name: 'Имя',
+	PriceUsd: 'Цена в долларах США',
+	PriceAmd: 'Цена AMD',
+	Active: 'Активный',
+	Edit_Role: 'Изменить роль'
+};
+
+export default locale;

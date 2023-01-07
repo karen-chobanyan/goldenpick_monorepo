@@ -1,0 +1,33 @@
+const locale = {
+	category_title: 'Մետաղներ',
+	Add_New_Category: 'Ավելացնել նոր մետաղներ',
+	New_Category: 'Նոր Մետաղներ',
+	Category_Detail: 'Մետաղների մանրամասնություն',
+	No_Category: 'Նման մետաղներ գոյություն չունեն!',
+	Go_to_Categories_Page: 'Անցնել մետաղների էջ',
+	Metal_Images: 'Մետաղների նկարներ',
+	search: 'որոնում',
+	remove: 'Հեռացնել',
+	save: 'Պահպանել',
+	Basic_Info: 'Հիմնական տեղեկություններ',
+	pricing: 'Գնագոյացում',
+	gems_title: 'Թանկարժեք քարեր',
+	Add_New_Gems: 'Ավելացնել նոր քար',
+	Gem_Detail: 'Մանրամասներ',
+	No_gem: 'Ոչ մի թանկարժեք քար!',
+	Gem_Images: 'Թանկարժեք քարերի նկարներ',
+	USERS: 'Օգտագործողներ',
+	Add_New_User: 'Ավելացնել Նոր Օգտագործող',
+	New_User: 'Նոր Օգտագործող',
+	User_Detail: 'Օգտագործողների մանրամասնություն',
+	user_info: 'Օգտագործողի տվյալներ',
+	no_user: 'Օգտագործողներ չկան',
+	Name: 'Անուն',
+	PriceUsd: 'Գինը ԱՄՆ դոլար',
+	PriceAmd: 'Գինը ՀՀ դրամ',
+	Active: 'Ակտիվ',
+	row_page: 'Տողեր մեկ էջի համար',
+	Edit_Role: 'Խմբագրել դերը'
+};
+
+export default locale;
